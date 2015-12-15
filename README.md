@@ -1,1 +1,1 @@
-# ResponsiveAlgorithms
+Mainly built for learning purposes, Responsive Algorithms is a web application for displaying several basic algorithms on a responsive page. 
