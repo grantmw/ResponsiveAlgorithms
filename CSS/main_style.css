@@ -1,0 +1,91 @@
+body, html {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+	width: 100%;
+	position: relative;
+}
+
+.main-header nav {
+	background: #fff;
+	height: 70px;
+}
+
+.main-header nav ul li {
+	list-style: none;
+	display: inline;
+	font-family:'Poiret One';
+	padding: 20px 25px;
+}
+
+.main-header nav ul a:link, .main-header nav ul a:visited {
+	display: inline-block;
+}
+
+.options {
+	position: absolute;
+	top: 1%;
+	right: 3%;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.logo img {
+	width: 10%;
+	float: left;
+}
+
+.title {
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 150%;
+	color: black;
+	display: inline-block;
+	line-height: 90%;
+	margin-top: 10px;
+}
+
+.centercontainer{
+	width: 100%;
+	background: #fff;
+}
+
+.homePhoto {
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 8%;
+}
+
+.homePhoto img {
+	width: 100%;
+}
+
+#welcomemessage {
+	padding: 4% 10% 0 0;
+	float: right;
+}
+
+blockquote {
+	color: #7a7a7a;
+	font-family: georgia;
+	font-size: 120%;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 200%;
+}
+
+
+blockquote cite {
+	font-size: 80%;
+	color: #999999;
+	float: right;
+}
+
