@@ -70,10 +70,11 @@ body, html {
 	float: right;
 }
 
-blockquote {
+.quote {
 	color: #7a7a7a;
 	font-family: georgia;
-	font-size: 120%;
+	font-size: 130%;
+	border-left: 0px;
 }
 
 blockquote:before {
