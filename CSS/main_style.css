@@ -90,3 +90,29 @@ blockquote cite {
 	float: right;
 }
 
+.dropdown {
+	display: inline-block;
+	position: relative;
+}
+
+.dropdown a {
+	text-decoration: none;
+}
+
+.dd-content {
+	position: absolute;
+	display: none;
+}
+
+.dd-content a {
+	padding: 12px 16px 12px 5px;
+	margin-left: 12px;
+	text-decoration: none;
+	box-shadow: 0 0 2px #c2c2d6;
+	background-color: #fff;
+}
+
+.dd-content a:hover {
+	background-color: #f1f1f1;
+}
+

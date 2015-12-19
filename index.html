@@ -8,8 +8,6 @@
 	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 	<meta name='viewport' content="width=device-width, initial-scale=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="js/app.js"></script>
 </head>
 <body>
@@ -23,8 +21,24 @@
 				</div>
 				<div class="options">
 					<ul>
-						<li><a href="#">Sorting &#8616</a></li>
-						<li><a href="#">Other &#8616</a></li>
+						<li class="sorting">
+							<div class="sorting dropdown">
+								<a href="#">Sorting &#8616</a>
+								<div class="dd-content">
+									<a href="">Bubble Sort</a>
+									<a href="">Selection Sort</a>
+									<a href="">Merge Sort</a>
+								</div>
+							</div>
+						</li>
+						<li class="other">
+								<div class="other dropdown">
+									<a href="#">Other &#8616</a>
+									<div class="dd-content">
+										<a href="#">Find Mode</a>
+									</div>
+								</div>
+						</li>
 					</ul>
 				</div>
 			</div>
