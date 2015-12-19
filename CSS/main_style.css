@@ -93,6 +93,7 @@ blockquote cite {
 .dropdown {
 	display: inline-block;
 	position: relative;
+	transition: all 0.3s ease-in-out 0s;
 }
 
 .dropdown a {
@@ -110,6 +111,28 @@ blockquote cite {
 	text-decoration: none;
 	box-shadow: 0 0 2px #c2c2d6;
 	background-color: #fff;
+	position: relative;
+}
+
+.dd-content a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0px;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.dd-content a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .dd-content a:hover {
